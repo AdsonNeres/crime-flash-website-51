@@ -117,7 +117,7 @@ const About = () => {
           <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <h3 className="text-2xl font-serif font-bold text-lawyer-navy mb-4">Defesa Criminal de Excelência</h3>
             <p className="text-gray-700 mb-6">
-              Com mais de 15 anos de experiência em Direito Criminal, o escritório de Dr. Edson Neres se destaca pela atuação em casos complexos e pelo compromisso inabalável com os direitos de seus clientes.
+              Com mais de 10 anos de experiência em Direito Criminal, o escritório de Dr. Edson Neres se destaca pela atuação em casos complexos e pelo compromisso inabalável com os direitos de seus clientes.
             </p>
             <p className="text-gray-700 mb-6">
               Nossa equipe é formada por profissionais especializados nas diversas áreas do Direito Penal, preparados para oferecer soluções jurídicas personalizadas para cada caso.
