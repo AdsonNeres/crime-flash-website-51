@@ -15,8 +15,8 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 const About = () => {
   // Statistics data to be displayed in cards
   const stats = [
-    { id: 1, value: '15+', label: 'Anos de Experiência' },
-    { id: 2, value: '500+', label: 'Casos de Sucesso' },
+    { id: 1, value: '10+', label: 'Anos de Experiência' },
+    { id: 2, value: '600+', label: 'Casos de Sucesso' },
     { id: 3, value: '98%', label: 'Taxa de Satisfação' },
   ];
 
@@ -26,31 +26,26 @@ const About = () => {
       id: 1,
       name: 'Carlos Silva',
       text: 'Atendimento excelente e confiável. Me senti acolhido do início ao fim.',
-      position: 'Cliente desde 2020',
     },
     {
       id: 2,
       name: 'Roberta Mendes',
       text: 'Profissionalismo e dedicação. Dr. Edson é referência!',
-      position: 'Cliente desde 2019',
     },
     {
       id: 3,
       name: 'André Oliveira',
       text: 'Consegui minha liberdade graças à atuação impecável do escritório.',
-      position: 'Cliente desde 2022',
     },
     {
       id: 4,
       name: 'Fernanda Costa',
       text: 'Serviço jurídico de excelência. Recomendo a todos que precisam de suporte legal competente.',
-      position: 'Cliente desde 2021',
     },
     {
       id: 5,
       name: 'Marcelo Souza',
       text: 'Comprometimento com o cliente e conhecimento técnico impressionante. Muito grato pela defesa.',
-      position: 'Cliente desde 2018',
     }
   ];
 

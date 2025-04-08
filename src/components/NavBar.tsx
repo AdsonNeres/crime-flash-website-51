@@ -40,7 +40,7 @@ const NavBar = ({ activeSection = 'home' }: NavBarProps) => {
           <a href="#" className="flex items-center gap-2">
             <Scale size={28} className="text-lawyer-gold" />
             <span className="font-serif text-xl font-bold text-lawyer-navy">
-              NERES ADVOCACIA
+              EDSON NERES ADVOCACIA
             </span>
           </a>
 

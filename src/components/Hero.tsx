@@ -18,7 +18,7 @@ const Hero = () => {
               Advocacia Criminal <span className="text-lawyer-gold">Especializada</span>
             </h1>
             <p className="text-gray-300 text-lg md:text-xl mb-8 max-w-xl animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              Defendendo seus direitos com excelência e dedicação. Mais de 15 anos de experiência em defesa criminal.
+              Defendendo seus direitos com excelência e dedicação. Mais de 10 anos de experiência em defesa criminal.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
               <Button 

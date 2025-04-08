@@ -46,7 +46,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5 text-lawyer-gold" />,
       title: 'Email',
-      content: 'contato@castroadvocacia.com.br',
+      content: 'contato@neresadvocacia.com.br',
     },
     {
       icon: <MapPin className="h-5 w-5 text-lawyer-gold" />,

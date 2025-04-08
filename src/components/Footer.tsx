@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Scale size={24} className="text-lawyer-gold" />
-              <span className="font-serif text-xl font-bold">CASTRO ADVOCACIA</span>
+              <span className="font-serif text-xl font-bold">EDSON NERES ADVOCACIA</span>
             </div>
             <p className="text-gray-400 mb-4">
               Advocacia Criminal de excelência, dedicada à defesa dos seus direitos com ética e profissionalismo.
@@ -74,7 +74,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-6">
           <p className="text-gray-400 text-center">
-            © {currentYear} Castro Advocacia. Todos os direitos reservados.
+            © {currentYear} Edson Neres Advocacia. Todos os direitos reservados.
           </p>
         </div>
       </div>
