@@ -58,6 +58,28 @@ const Index = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Scroll reveal animation
+  useEffect(() => {
+    const handleScrollReveal = () => {
+      const reveals = document.querySelectorAll('[data-scroll-reveal="true"]');
+      
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const elementTop = reveals[i].getBoundingClientRect().top;
+        const elementVisible = 150;
+        
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.remove('opacity-0');
+        }
+      }
+    };
+    
+    window.addEventListener('scroll', handleScrollReveal);
+    handleScrollReveal(); // Call once on mount to reveal initially visible elements
+    
+    return () => window.removeEventListener('scroll', handleScrollReveal);
+  }, []);
+
   // Update title
   useEffect(() => {
     document.title = "Dr. Edson Neres | Advocacia Criminal Especializada";

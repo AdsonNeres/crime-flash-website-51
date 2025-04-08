@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
           <div className="md:w-1/2 animate-fade-in-right" style={{ animationDelay: "0.4s" }}>
             <div className="relative w-full h-[400px] md:h-[500px] bg-lawyer-dark-blue/50 rounded-lg shadow-2xl overflow-hidden hover-scale">
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center"></div>
+              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1593115057322-e94b77572f20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80')] bg-cover bg-center"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-lawyer-navy/90 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
                 <h3 className="text-white font-serif text-2xl font-bold">Dr. Edson Neres</h3>
